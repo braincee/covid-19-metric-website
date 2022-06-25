@@ -1,4 +1,4 @@
-import { ContinentNameAPI, ContinentsAPI } from '../../components/Continents/continentsAPI';
+import { ContinentsAPI } from '../../components/Continents/continentsAPI';
 
 const GET_CONTINENTS = 'GET_CONTINENTS';
 const GET_CONTINENT = 'GET_CONTINENT';
