@@ -8,7 +8,7 @@ const Country = ({ countryDate }) => {
 
   return (
     <div>
-      <img src={flag} alt={`${country}'s Img`}/>
+      <img src={flag} alt={`${country}'s Img`} />
       <p>{country}</p>
       <p>{cases}</p>
       <FontAwesomeIcon icon={faArrowCircleRight} />
