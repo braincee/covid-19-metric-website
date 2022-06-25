@@ -1,12 +1,5 @@
 import CountriesAPINames from '../../components/Countries/countriesAPI';
-
-const GET_COUNTRIES = 'GET_COUNTRIES';
-
-const CountriesAction = (payload) => ({
-  type: GET_COUNTRIES,
-  payload,
-
-});
+import { CountriesAction } from './countriesAction';
 
 const getCountries = (countriesNames) => async (dispatch) => {
   const countries = await CountriesAPINames(countriesNames);
