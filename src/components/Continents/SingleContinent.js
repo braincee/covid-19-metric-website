@@ -13,13 +13,14 @@ const SingleContinent = ({ continentData }) => {
 
   return (
     <button
-      className={styles.continent} onClick={() => {navigate(`/${continent}`); }}
+      className={styles.continent}
+      onClick={() => { navigate(`/${continent}`); }}
       type="button"
     >
       <FontAwesomeIcon icon={faArrowAltCircleRight} className={styles.icon} />
 
       <div className={styles.container}>
-        <img src={ ContinentImages[ continent ] } className={styles.contImage} alt="single continent" />
+        <img src={ContinentImages[continent]} className={styles.contImage} alt="single continent" />
         <div>
           <h3>{continent}</h3>
           <p>{` Active Cases : ${cases}`}</p>

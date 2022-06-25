@@ -9,7 +9,7 @@ const Country = ({ countryDate }) => {
 
   return (
     <div className="countryContainer">
-      <img src={flag} className="flag-image" alt="flag image"/>
+      <img src={flag} className="flag-image" alt="flagImage" />
       <p className="countryName">{country}</p>
       <p className="cases">{cases}</p>
       <FontAwesomeIcon icon={faArrowCircleRight} className="icon" />

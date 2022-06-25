@@ -8,7 +8,7 @@ const ContinentImages = {
     'https://www.pngkit.com/png/full/390-3903931_created-with-raphal-europe-map-white-png.png',
   Africa:
     'https://www.pngplay.com/wp-content/uploads/6/Africa-White-Map-Transparent-Background.png',
-  "Australia-Oceania":
+  'Australia-Oceania':
     'https://www.pngkit.com/png/full/76-765568_bp-oil-spill-in-great-australian-bight-would.png',
 };
 

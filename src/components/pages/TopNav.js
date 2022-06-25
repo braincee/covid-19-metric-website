@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useSelector } from 'react-redux';
-import WorldImage from '../pages/worldImages.png';
+import WorldImage from './worldImages.png';
 import classes from './navbar.css';
-
 
 const TopNav = () => {
   const continents = useSelector((state) => state.continentsReducer);

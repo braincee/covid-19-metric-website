@@ -18,7 +18,7 @@ const ContinentDisplay = () => {
   return (
     <header>
       <div className={styles.header}>
-        <img src={ContinentImages[continent]} className={styles.image} alt="continent image"/>
+        <img src={ContinentImages[continent]} className={styles.image} alt="continentImage" />
         <div>
           <h2>{continent}</h2>
           <p>{`TOTAL STATS: ${cases}`}</p>
