@@ -1,15 +1,5 @@
 import { GET_CONTINENT, GET_CONTINENTS } from './continentActions';
 
-export const ContinentsAction = (payload) => ({
-  type: GET_CONTINENTS,
-  payload,
-});
-
-export const ContinentAction = (payload) => ({
-  type: GET_CONTINENT,
-  payload,
-});
-
 export const continentsReducer = (state = [], action) => {
   switch (action.type) {
     case GET_CONTINENTS:
