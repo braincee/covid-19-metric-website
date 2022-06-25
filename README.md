@@ -6,11 +6,11 @@
 
 ## Live Demo
 
-> [Live Demo](https://covid-19-vaccination-tracker-2022.netlify.app/)
+> [Live Demo](https://covid-19-metric.netlify.app/)
 
 ## video Demo
 
-> [Video Demo](https://www.loom.com/share/7bef62edcef14264877a3f831dc3ab6d)
+> [Video Demo]()
 
 
 > <h2 align="center">
@@ -19,11 +19,11 @@
 
 |                                                       **Interface 1**                                                       |
 | :-------------------------------------------------------------------------------------------------------------------------: |
-| ![screenshot](images/home.PNG)
+| ![screenshot](/covid-19-metric-website/covidhome.png)
 
 |                                                       **Interface 2**                                                       |
 | :-------------------------------------------------------------------------------------------------------------------------: |
-|  ![screenshot](images/country.PNG)
+|  ![screenshot](/covid-19-metric-website/covidcountries.png)
 > Learning objectives: 
 
 - Use React documentation.
