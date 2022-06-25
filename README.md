@@ -12,18 +12,6 @@
 
 > [Video Demo](https://www.loom.com/share/5a0be35f8a554416aa3bc95ea06089da)
 
-
-> <h2 align="center">
-  Demo 📝
-</h2>
-
-|                                                       **Interface 1**                                                       |
-| :-------------------------------------------------------------------------------------------------------------------------: |
-| ![screenshot](/covid-19-metric-website/covidhome.png)
-
-|                                                       **Interface 2**                                                       |
-| :-------------------------------------------------------------------------------------------------------------------------: |
-|  ![screenshot](/covid-19-metric-website/covidcountries.png)
 > Learning objectives: 
 
 - Use React documentation.
