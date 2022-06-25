@@ -10,7 +10,7 @@
 
 ## video Demo
 
-> [Video Demo]()
+> [Video Demo](https://www.loom.com/share/5a0be35f8a554416aa3bc95ea06089da)
 
 
 > <h2 align="center">
@@ -56,7 +56,7 @@ To get a local copy up and running follow these simple example steps.
 
 **Install**
 
-- On your terminal run : `npm i`
+- On your terminal run : `npm install`
 - To start the development server : `npm run start`
 - In case you run into any errors please raise an [issue](https://github.com/braincee/covid-19-metric-website/issues).
 
