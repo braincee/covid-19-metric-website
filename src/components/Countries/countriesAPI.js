@@ -1,9 +1,8 @@
-const countriesAPINames = (countriesNames) =>
-{
-    const result = await fetch( `https://corona.lmao.ninja/v2/countries/${countriesNames}`)
-        .then( ( data ) => data.json() );
-    return result;
-    
-}
+const CountriesAPINames = async (countriesNames) => {
+  const data = await fetch(`https://corona.lmao.ninja/v2/countries/${countriesNames}`)
+    .then((response) => response.json());
 
-export default countriesAPINames;
+  return data;
+};
+
+export default CountriesAPINames;

@@ -1,15 +1,13 @@
-export const ContinentsAPI = () => {
-    const result = await fetch('https://corona.lmao.ninja/v2/continents')
-        .then( ( response ) => response.json() );
+export const ContinentsAPI = async () => {
+  const data = await fetch('https://corona.lmao.ninja/v2/continents')
+    .then((response) => response.json());
 
-    return result;
+  return data;
 };
 
-export const ContinentNameAPI = (ContinentName) =>
-{
-    const result = await fetch( `https://corona.lmao.ninja/v2/continents/${ContinentName}`)
-        .then((data) => data.json());
-    
-    return result;
-    
+export const ContinentNameAPI = async (continentName) => {
+  const data = await fetch(`https://corona.lmao.ninja/v2/continents/${continentName}`)
+    .then((response) => response.json());
+
+  return data;
 };
