@@ -1,5 +1,4 @@
-const GET_CONTINENTS = 'GET_CONTINENTS';
-const GET_CONTINENT = 'GET_CONTINENT';
+import { GET_CONTINENT, GET_CONTINENTS } from './continentActions';
 
 export const ContinentsAction = (payload) => ({
   type: GET_CONTINENTS,
