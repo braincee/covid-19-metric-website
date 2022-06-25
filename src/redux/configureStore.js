@@ -1,6 +1,6 @@
 import { legacy_createStore as createStore, applyMiddleware, combineReducers } from 'redux';
 import thunk from 'redux-thunk';
-import logger from 'redux-logger'
+import logger from 'redux-logger';
 import { continentsReducer, continentReducer } from './continents/reducerContinent';
 import countriesReducer from './countries/reducerCountries';
 
